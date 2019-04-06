@@ -1,2 +1,61 @@
-<h1>Artists#show</h1>
-<p>Find me in app/views/artists/show.html.erb</p>
+<div class="container pt-2">
+    <div class="row">
+        <div class="col-8">
+            <div>
+              <h3>Foo Fighters   </h3> 
+            </div>
+            <div>
+              <h5> Albums(6)    </h5>  
+            </div>
+            <div class="d-flex bd-highlight flex-wrap" >
+                    <div class="card m-3" style="width:  9rem;">
+                        <img src="<%= '/assets/foo_fighters.png'%>" class="card-img-top" alt="foo_fighters">
+                        <div class="card-body">
+                            <p class="text-left">Foo Fighters</p>
+                            <p class="card-text">Year</p>                            
+                        </div>
+                    </div>
+                    <div class="card m-3" style="width:  9rem;">
+                        <img src="<%= '/assets/queen.png'%>" class="card-img-top" alt="queen">
+                        <div class="card-body">
+                            <p class="text-left">Queen</p>
+                            <p class="card-text">Year</p>                            
+                        </div>
+                    </div>
+                    <div class="card m-3" style="width:  9rem;">
+                        <img src="<%= '/assets/pearl_jam.png'%>" class="card-img-top" alt="pearl_jam">
+                        <div class="card-body">
+                            <p class="text-left">Pearl Jam</p>
+                            <p class="card-text">Year</p>                            
+                        </div>
+                    </div>
+                    <div class="card m-3" style="width:  9rem;">
+                        <img src="<%= '/assets/aerosmith.png'%>" class="card-img-top" alt="aerosmith">
+                        <div class="card-body">
+                            <p class="text-left">Aerosmith</p>
+                            <p class="card-text">Year</p>
+                        </div>                                
+                    </div>
+                    <div class="card m-3" style="width:  9rem;">
+                        <img src="<%= '/assets/linkin_park.png'%>" class="card-img-top" alt="linkin_park">
+                        <div class="card-body">
+                            <p class="text-left">Linkin Park</p>
+                            <p class="card-text">Year</p>                            
+                        </div>
+                    </div>
+                    <div class="card m-3" style="width: 9rem;">
+                        <img src="<%= '/assets/the_rolling_stones.png'%>" class="card-img-top" alt="the_rolling_stones">
+                        <div class="card-body">
+                            <p class="text-left">Rolling Stones</p>
+                            <p class="card-text">Year</p>                            
+                        </div>
+                    </div>
+              </div>
+        </div>
+        <div class="col-4">                   
+            <div class="m-4">                            
+              <%= image_tag('/assets/queen.png', :size => "230x300")%>             
+            </div>
+        </div>
+    </div> 
+</div>
