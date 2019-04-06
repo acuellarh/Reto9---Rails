@@ -1,7 +1,6 @@
 Rails.application.routes.draw do
   
   root to: "artists#index"
-
   get 'artists/index'    
   get 'artists/show'
   get 'artists/new'
