@@ -1,6 +1,6 @@
 class ArtistsController < ApplicationController
   def index
-    @prueba = "Hola"
+   
   end
 
   def show
