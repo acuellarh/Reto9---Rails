@@ -7,7 +7,7 @@
               <div class="card-body">
                 <h5 class="card-title text-center"><%= artist.name %></h5>
                 <p class="card-text"></p>
-                <a href="#" class="btn btn-primary btn-block">Ver más</a>
+                <a><%= link_to "Ver más", artist_path(artist), {:style=>'color:#FFFFFF;', :class => "btn btn-primary btn-block"} %></a>                          
               </div>
           </div> 
         <% end %>
